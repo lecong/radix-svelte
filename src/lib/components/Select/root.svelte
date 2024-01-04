@@ -45,7 +45,6 @@
 
 <Popper.Root>
 	<div {...$$restProps} use:useActions={use ?? []}>
-		{JSON.stringify($ctx)}
 		<slot />
 		{#if name}
 			<input type="hidden" {name} {value} />
